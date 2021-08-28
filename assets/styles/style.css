@@ -1,81 +1,80 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    background-color: #A9C9FF;
-    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(180deg, #4978ca 0%, #ffbbec 100%);
 }
 
 .calculator {
-    margin: 0 auto;
-    height: 550px;
-    width: 440px;
+	margin: 0 auto;
+	height: 550px;
+	width: 440px;
 }
 
 .display {
-    height: 25%;
-    background-color: rgba(245, 245, 245, 0.50);
-    border-radius: 15px 15px 0 0;
+	height: 25%;
+	background-color: rgba(245, 245, 245, 0.5);
+	border-radius: 15px 15px 0 0;
 }
 
 .display-input,
 .display-result {
-    height: 50%;
-    text-align: end;
-    display: flex;
-    justify-content: flex-end;
-    align-items:flex-end;
+	height: 50%;
+	text-align: end;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 
 .display-input-text,
 .display-result-text {
-    color: white;
-    margin: 0 .2em 0;
-    font-size: 2rem;
+	color: white;
+	margin: 0 0.2em 0;
+	font-size: 2rem;
 }
 
 .display-result-text {
-    font-size: 3rem;
+	font-size: 3rem;
 }
 
 .buttons {
-    display: flex;
-    flex-wrap: wrap;
-    height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	height: 75%;
 }
 
 .btn {
-    display: flex;
-    border: 1px solid rgba(245, 245, 245, 0.474);
-    justify-content: center;
-    align-items: center;
-    width: 24.5%;
-    color: rgb(255, 255, 255);
-    background-color: rgba(245, 245, 245, 0.4);
-    font-weight: 500;
-    font-size: 2rem;
-    cursor: pointer;
-    transition-duration: 0.1s;
-    user-select: none;
+	display: flex;
+	border: 1px solid rgba(245, 245, 245, 0.474);
+	justify-content: center;
+	align-items: center;
+	width: 24.5%;
+	color: rgb(255, 255, 255);
+	background-color: rgba(245, 245, 245, 0.1);
+	font-weight: 500;
+	font-size: 2rem;
+	cursor: pointer;
+	transition-duration: 0.1s;
+	user-select: none;
 }
 
 .btn:hover {
-    background-color: rgba(245, 245, 245, 0.6);
+	background-color: rgba(245, 245, 245, 0.6);
 }
 
 .btn:active {
-    background-color: mediumslateblue;
+	background-color: mediumslateblue;
 }
 
 .btn-wide {
-    width: 49.5%;
-    transition-duration: 0.1s;
+	width: 49.5%;
+	transition-duration: 0.1s;
 }
 
 .btn-wide:hover {
-    background-color: orangered;
+	background-color: orangered;
 }
