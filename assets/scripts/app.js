@@ -49,7 +49,7 @@ const resetDisplay = () => {
 };
 
 //backspace functionality - when user clicks 'C' button, delete the last
-//character from the display.textContent string if it's length is more
+//character from the display.textContent string if its length is more
 //than one, otherwise set it to zero
 const btnClearHandler = () => {
 	if (shouldCalculate && display.textContent.length > 1)
