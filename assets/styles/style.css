@@ -78,3 +78,16 @@ body {
 .btn-wide:hover {
 	background-color: orangered;
 }
+
+@media (max-width: 600px) {
+	.calculator {
+		height: 440px;
+		width: 330px;
+	}
+	.btn {
+		width: 24.39%;
+	}
+	.btn-wide {
+		width: 49.3%;
+	}
+}
